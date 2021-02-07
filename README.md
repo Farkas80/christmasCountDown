@@ -1,4 +1,4 @@
-# christmasCountdown
+# Christmas Countdown
 Landing page with a christmas countdown.
 # Project Name
 Landing Page with Christmas Countdown - vanilla JS, CSS3, HTML5
@@ -16,7 +16,7 @@ Landing Page with Christmas Countdown - vanilla JS, CSS3, HTML5
 Countdown created with vanilla Javascript.
 
 ## Screenshots
-![Countdown](LandingPage/Screenshot.png)
+![Countdown](resources/images/Screenshot.png)
 
 ## Technologies
 * Tech 1 - HTML5
