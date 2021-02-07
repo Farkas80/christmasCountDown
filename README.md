@@ -16,7 +16,7 @@ Landing Page with Christmas Countdown - vanilla JS, CSS3, HTML5
 Countdown created with vanilla Javascript.
 
 ## Screenshots
-![Countdown](Screenshot.png)
+![Countdown](LandingPage/Screenshot.png)
 
 ## Technologies
 * Tech 1 - HTML5
@@ -25,8 +25,7 @@ Countdown created with vanilla Javascript.
 
 ## Features
 List of features ready and TODOs for future development
-* Countdown 
-To-do list:
+
 * Make it dynamic.
 
 ## Status
