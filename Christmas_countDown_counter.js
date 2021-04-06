@@ -1,5 +1,7 @@
-let endDate = '12/24/2021 08:00:00 AM';
-
+let actualYear = /*'12/24/2021 08:00:00 AM';*/ new Date().getFullYear();
+console.log(actualYear);
+let endDate = new Date(actualYear, 02, 26, 19, 23);
+console.log(endDate);
 function countdown (endDate) {
     let days, hours, minutes, seconds;
 
@@ -34,7 +36,11 @@ function countdown (endDate) {
             document.getElementById("hours").innerHTML = hours < 10 ? "0" + hours : hours;
             document.getElementById("minutes").innerHTML = minutes < 10 ? "0" + minutes : minutes;
             document.getElementById("seconds").innerHTML = seconds < 10 ? "0" + seconds : seconds;
-        } else {
+        } 
+        if (timeRemaining < 0) {
+            endDate = new Date(actualYear + 1, 11, 24, 08, 00);
+        }
+        else {
             return;
         }
     }
@@ -61,3 +67,4 @@ function createSnowFlake () {
         snow_flake.remove;
     }, 150);
 }
+
